@@ -1,0 +1,107 @@
+ 
+ *{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.login-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 80px;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.logo {
+  margin-bottom: 0px;
+}
+
+.form h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.form .brand {
+  color: #2563eb;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 10px auto 24px auto;
+  font-size: 14px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.remember input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+
+.forget {
+  color: #dc2626;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forget:hover {
+  text-decoration: underline;
+}
+
+
+.login-right {
+  flex: 1;
+  height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.login-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
